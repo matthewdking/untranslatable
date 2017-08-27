@@ -1,0 +1,29 @@
+{
+  "name": "untranslatable",
+  "version": "1.0.0",
+  "description": "## Local Install",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "devStart": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewdking/untranslatable.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewdking/untranslatable/issues"
+  },
+  "homepage": "https://github.com/matthewdking/untranslatable#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "serve-favicon": "^2.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

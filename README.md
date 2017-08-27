@@ -1,6 +1,5 @@
 # Untranslatable Words
 
-
 ## Local Install
 
 Clone the repository
