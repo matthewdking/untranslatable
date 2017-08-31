@@ -1,0 +1,46 @@
+/* Home Page */
+
+
+/* Letters Page */
+.block-container {
+  display: flex;
+  flex-wrap: wrap;
+  height:100vh;
+}
+
+.letter-block {
+  height: 14.2857142857%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+}
+
+
+/* Word Page */
+
+
+/* Desktop Version */
+
+@media (min-width: 500px) {
+  /* Home Page */
+
+  /* Letters Page */
+  .letter-block {
+    height: 20%;
+    width: 16.666666667%;
+  }
+
+  .home-block {
+    width: 33.333333333%
+  }
+
+  .thanks-block {
+    width: 33.333333333%
+  }
+
+  /* Word Page */
+}
